@@ -18,7 +18,7 @@ QUERY = """
 query($login: String!) {
   user(login: $login) {
     followers { totalCount }
-    repos: repositories(first: 100, ownerAffiliation: OWNER, isFork: false, privacy: PUBLIC) {
+    repos: repositories(first: 100, ownerAffiliations: [OWNER], isFork: false, privacy: PUBLIC) {
       totalCount
       nodes { stargazerCount }
     }
@@ -43,11 +43,16 @@ def fetch(login):
             "User-Agent": "profile-readme-sync",
         },
     )
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        payload = json.load(resp)
-    if "errors" in payload:
-        raise RuntimeError(payload["errors"])
-    return payload["data"]["user"]
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            payload = json.load(resp)
+        if "errors" in payload:
+            raise RuntimeError(payload["errors"])
+        return payload["data"]["user"]
+    except urllib.error.HTTPError as e:
+        print(f"HTTP Error {e.code}: {e.reason}")
+        print(e.read().decode())
+        raise SystemExit(1)
 
 
 def streaks(days):

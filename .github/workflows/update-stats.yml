@@ -22,7 +22,12 @@ jobs:
           python-version: "3.12"
 
       - name: Fetch stats and rewrite README
-        run: python scripts/update_readme.py
+        run: |
+          if [ -z "${{ secrets.GH_STATS_TOKEN }}" ]; then
+            echo "::error::GH_STATS_TOKEN secret is empty or missing. Please add a Classic PAT with read:user scope as a repository secret named GH_STATS_TOKEN."
+            echo "Falling back to GITHUB_TOKEN, which may not have sufficient permissions to read user-level GraphQL data."
+          fi
+          python scripts/update_readme.py
         env:
           # Optional: add a PAT (scope: read:user) as GH_STATS_TOKEN to include private contributions
           GH_TOKEN: ${{ secrets.GH_STATS_TOKEN || secrets.GITHUB_TOKEN }}
