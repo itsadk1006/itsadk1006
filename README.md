@@ -56,14 +56,14 @@ Author: Aditya Kumar
 
 <!--LIVE_STATS:START-->
 ```text
-┌─[ LIVE TELEMETRY · awaiting first sync ]───────┐
-│ contributions (1y)   ▸ --                      │
-│ current streak       ▸ --                      │
-│ longest streak (1y)  ▸ --                      │
-│ public repos         ▸ --                      │
-│ stars earned         ▸ --                      │
-│ followers            ▸ --                      │
-└────────────────────────────────────────────────┘
+┌─[ LIVE TELEMETRY · 29 Sep 2026 ]─────────────┐
+│ contributions (1y)   ▸ 143                   │
+│ current streak       ▸ 2 days                │
+│ longest streak (1y)  ▸ 4 days                │
+│ public repos         ▸ 3                     │
+│ stars earned         ▸ 0                     │
+│ followers            ▸ 0                     │
+└──────────────────────────────────────────────┘
 ```
 <!--LIVE_STATS:END-->
 
