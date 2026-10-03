@@ -60,7 +60,7 @@ Author: Aditya Kumar
 │ contributions (1y)   ▸ 154                   │
 │ current streak       ▸ 6 days                │
 │ longest streak (1y)  ▸ 6 days                │
-│ public repos         ▸ 3                     │
+│ public repos         ▸ 4                     │
 │ stars earned         ▸ 0                     │
 │ followers            ▸ 0                     │
 └──────────────────────────────────────────────┘
