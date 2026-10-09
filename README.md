@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:1e1b4b,70:7c3aed,100:00f5ff&height=230&section=header&text=ADITYA%20KUMAR&fontSize=58&fontColor=ffffff&fontAlignY=38&animation=twinkling&desc=%3E_%20terminal%20agents%20%E2%80%A2%20AI-native%20tooling%20%E2%80%A2%20web%20apps&descSize=17&descAlignY=60" alt="Aditya Kumar" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:1e1b4b,70:7c3aed,100:00f5ff&height=230&section=header&text=ADITYA%20KUMAR&fontSize=58&fontColor=ffffff&fontAlignY=38&animation=twinkling&desc=%3E_%20TERMINAL%20AGENTS%20%E2%80%A2%20AI-NATIVE%20TOOLING%20%E2%80%A2%20WEB%20APPS&descSize=17&descAlignY=60" alt="Aditya Kumar" width="100%"/>
 
 <a href="https://github.com/itsadk1006">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=21&duration=3200&pause=900&color=00F5FF&center=true&vCenter=true&width=760&height=50&lines=Building+terminal-based+coding+agents;Orchestrating+multi-agent+state+machines;Grinding+DSA+in+C%2B%2B;Reading+papers+on+agentic+reasoning;Writing+commits+for+future+historians" alt="Typing SVG" />
@@ -17,7 +17,7 @@
 
 </div>
 
-## 🧬 System Profile
+## 🧬 // SYSTEM_PROFILE
 
 > Wiring LLMs into terminals and pixels into browsers. I build agents that write code, and code that ships.
 
@@ -42,7 +42,11 @@ Author: Aditya Kumar
     feat(life): ship another idea at 2am, future historians take note
 ```
 
-## ⚙️ Loaded Modules
+## ⚙️ // SYSTEM_MODULES
+
+<details>
+<summary><b>[+] EXPAND LOADED MODULES</b></summary>
+<br>
 
 | Layer | Stack |
 |:--|:--|
@@ -52,18 +56,20 @@ Author: Aditya Kumar
 | **AI / ML** | <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,numpy,pandas,opencv,anaconda&theme=dark" alt="AI/ML"/> ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white) |
 | **DevOps** | <img src="https://skillicons.dev/icons?i=git,github,githubactions,vercel&theme=dark" alt="DevOps"/> |
 
-## 📡 Live Telemetry
+</details>
+
+## 📡 // TERMINAL_UPLINK
 
 <!--LIVE_STATS:START-->
 ```text
-┌─[ LIVE TELEMETRY · 09 Oct 2026 ]─────────────┐
-│ contributions (1y)   ▸ 161                   │
-│ current streak       ▸ 3 days                │
-│ longest streak (1y)  ▸ 7 days                │
-│ public repos         ▸ 4                     │
-│ stars earned         ▸ 0                     │
-│ followers            ▸ 0                     │
-└──────────────────────────────────────────────┘
+╔═[ TERMINAL UPLINK :: 09 Oct 2026 ]═══════════╗
+║ CONTRIBUTIONS (1Y)    :: 161                 ║
+║ CURRENT STREAK        :: 3 days              ║
+║ LONGEST STREAK (1Y)   :: 7 days              ║
+║ PUBLIC REPOS          :: 4                   ║
+║ STARS EARNED          :: 0                   ║
+║ FOLLOWERS             :: 0                   ║
+╚══════════════════════════════════════════════╝
 ```
 <!--LIVE_STATS:END-->
 
@@ -79,7 +85,7 @@ Author: Aditya Kumar
   <img alt="Contribution snake" src="https://raw.githubusercontent.com/itsadk1006/itsadk1006/output/github-snake.svg" />
 </picture>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,40:7c3aed,70:1e1b4b,100:0d1117&height=130&section=footer&text=end%20of%20transmission&fontSize=15&fontColor=ffffff&fontAlignY=68&animation=twinkling" width="100%" alt="footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,40:7c3aed,70:1e1b4b,100:0d1117&height=130&section=footer&text=END%20OF%20TRANSMISSION&fontSize=15&fontColor=ffffff&fontAlignY=68&animation=twinkling" width="100%" alt="footer"/>
 
 </div>
 

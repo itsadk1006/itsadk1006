@@ -79,20 +79,20 @@ def render(user, today):
     stars = sum(n["stargazerCount"] for n in user["repos"]["nodes"])
 
     rows = [
-        ("contributions (1y)", f"{cal['totalContributions']}"),
-        ("current streak", f"{current} day{'s' if current != 1 else ''}"),
-        ("longest streak (1y)", f"{longest} day{'s' if longest != 1 else ''}"),
-        ("public repos", f"{user['repos']['totalCount']}"),
-        ("stars earned", f"{stars}"),
-        ("followers", f"{user['followers']['totalCount']}"),
+        ("CONTRIBUTIONS (1Y)", f"{cal['totalContributions']}"),
+        ("CURRENT STREAK", f"{current} day{'s' if current != 1 else ''}"),
+        ("LONGEST STREAK (1Y)", f"{longest} day{'s' if longest != 1 else ''}"),
+        ("PUBLIC REPOS", f"{user['repos']['totalCount']}"),
+        ("STARS EARNED", f"{stars}"),
+        ("FOLLOWERS", f"{user['followers']['totalCount']}"),
     ]
 
     width = 46
-    title = f" LIVE TELEMETRY · {today} "
-    lines = ["┌" + ("─[" + title + "]").ljust(width, "─") + "┐"]
+    title = f" TERMINAL UPLINK :: {today} "
+    lines = ["╔" + ("═[" + title + "]").ljust(width, "═") + "╗"]
     for label, value in rows:
-        lines.append("│" + f" {label:<21}▸ {value}".ljust(width) + "│")
-    lines.append("└" + "─" * width + "┘")
+        lines.append("║" + f" {label:<21}:: {value}".ljust(width) + "║")
+    lines.append("╚" + "═" * width + "╝")
     return "```text\n" + "\n".join(lines) + "\n```"
 
 
