@@ -64,7 +64,7 @@ Author: Aditya Kumar
 ```text
 ╔═[ TERMINAL UPLINK :: 03 Nov 2026 ]═══════════╗
 ║ CONTRIBUTIONS (1Y)   :: 177                  ║
-║ CURRENT STREAK       :: 1 day                ║
+║ CURRENT STREAK       :: 0 days               ║
 ║ LONGEST STREAK (1Y)  :: 7 days               ║
 ║ PUBLIC REPOS         :: 5                    ║
 ║ STARS EARNED         :: 0                    ║
